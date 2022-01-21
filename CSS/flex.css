@@ -1,0 +1,68 @@
+body {
+    padding: 2em;
+}
+
+.headerContainer {
+    display         : flex;
+    flex-flow       : column wrap;
+    text-align      : center;
+    background-color: red;
+    font-weight     : bold;
+    padding         : 10px;
+}
+.footerContainer {
+    display         : flex;
+    flex-flow       : column wrap;
+    text-align      : center;
+    background-color: lightgreen;
+    font-weight     : bold;
+    padding         : 10px; 
+}
+
+.mainContainer {
+    display    : flex;
+    flex-flow  : row wrap;
+    font-weight: bold;
+    text-align : center;
+}
+
+.mainContaineItem {
+    text-align      : left;
+    background-color: lightskyblue;
+
+}
+
+article {
+    padding         : 10px;
+    margin          : 10px;
+    background-color: mediumspringgreen;
+}
+
+.sideBarLeftItem {
+    background-color: yellow;
+}
+
+.sideBarRightItem {
+    background-color: pink;
+}
+
+.sideBarItem {
+    flex  : 1 0 0;
+    border: 0px solid green;
+}
+
+.mainContaineItem {
+    flex: 3 0px;
+}
+
+.sideBarLeftItem {
+    order: 1;
+}
+
+.mainContaineItem {
+    order: 2;
+}
+
+.sideBarRightItem {
+    order: 3;
+}
